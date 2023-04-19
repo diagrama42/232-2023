@@ -1,0 +1,16 @@
+digraph G {
+rankdir="LR";
+node [shape=box,style="rounded"];
+
+    labelloc="t";
+    label="RESOL-2023-232-APN-MSG / ANEXO 1";
+
+"CAPÍTULO V \n\n PROCEDIMIENTOS ESPECÍFICOS \n POR TIPO DE DISPOSITIVO\n ELECTRÓNICO"->"CRIPTOACTIVOS";
+"CAPÍTULO V \n\n PROCEDIMIENTOS ESPECÍFICOS \n POR TIPO DE DISPOSITIVO\n ELECTRÓNICO"->"RIG DE MINERIA";
+"CRIPTOACTIVOS"->"5.35"->"Al momento del allanamiento se deberá\nprestar atención a la presencia de billeteras\nfrías (aspecto similar a un pendrive), como así\na anotaciones con palabras claves (semillas),\ncódigos QR, etc., que puedan estar\nasociadas a wallets.";
+"CRIPTOACTIVOS"->"5.36"->"Ante la presencia de indicadores o \nidentificadores propios de actividades ligadas \na los criptoactivos se deberá realizar \nconsulta con la autoridad judicial,\n quién determinará el criterio a adoptar.";
+"RIG DE MINERIA"->"5.37"->"Los rigs de minería pueden presentar distintos\naspectos de acuerdo a su tecnología.\nEn la actualidad, lo más común es utilizar\nplacas de video (GPU) o un hardware dedicado a\nun algoritmo en particular conocidos como ASIC.\nDebe considerarse que algunos rigs de minería\nrepresentan un alto valor monetario, por lo cual\nsu detección durante un procedimiento debe ser\ninformada a la autoridad judicial para la\nevaluación de su secuestro.";
+"RIG DE MINERIA"->"5.38"->"En caso de encontrarse en un allanamiento\ncon equipos de minería (rig de minería), el\nprimer interviniente coordinará con la\nautoridad judicial y con el personal\nespecialista de criptoactivos como proceder.";
+"RIG DE MINERIA"->"5.39"->"En los casos en los que la autoridad\njudicial ordene el secuestro, se procederá\nde igual forma que con un\nequipo informático encendido.";
+
+}

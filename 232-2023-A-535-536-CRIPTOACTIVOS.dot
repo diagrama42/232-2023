@@ -1,0 +1,17 @@
+digraph G {
+//rankdir="LR";
+node [shape=box,style="rounded"];
+
+    labelloc="t";
+    label="RESOL-2023-232-APN-MSG / ANEXO 1 / CRIPTOACTIVOS";
+
+"CAPÍTULO V \n\n PROCEDIMIENTOS ESPECÍFICOS \n POR TIPO DE DISPOSITIVO\n ELECTRÓNICO"->"CRIPTOACTIVOS";
+
+"CRIPTOACTIVOS"->"5.35"->"Al momento del allanamiento\nse deberá"->"prestar atención a la presencia de"->"billeteras frías\n(aspecto similar\na un pendrive)"->"que puedan estar asociadas a wallets.";
+
+"prestar atención a la presencia de"->"anotaciones con palabras claves\n(semillas)"->"que puedan estar asociadas a wallets.";
+"prestar atención a la presencia de"->"códigos QR"->"que puedan estar asociadas a wallets.";
+"CRIPTOACTIVOS"->"5.36"->"Ante la presencia de indicadores o \nidentificadores propios de actividades ligadas \na los criptoactivos"->"se deberá realizar"->"consulta con la autoridad judicial"->"quién determinará el criterio a adoptar.";
+
+
+}
